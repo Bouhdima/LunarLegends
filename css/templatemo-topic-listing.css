@@ -1,9 +1,4 @@
 /*
-
-TemplateMo 590 topic listing
-
-https://templatemo.com/tm-590-topic-listing
-
 */
 
 /*---------------------------------------
@@ -11,15 +6,17 @@ https://templatemo.com/tm-590-topic-listing
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #13547a;
-  --secondary-color:              #80d0c7;
+  --primary-color:                #f86807;
+  --primary-color1:                #191515;
+
+  --secondary-color:              #e57417;
   --section-bg-color:             #f0f8ff;
   --custom-btn-bg-color:          #80d0c7;
-  --custom-btn-bg-hover-color:    #13547a;
+  --custom-btn-bg-hover-color:    #737a13;
   --dark-color:                   #000000;
   --p-color:                      #717275;
-  --border-color:                 #7fffd4;
-  --link-hover-color:             #13547a;
+  --border-color:                 #fff67f;
+  --link-hover-color:             #aab8c1;
 
   --body-font-family:             'Open Sans', sans-serif;
   --title-font-family:            'Montserrat', sans-serif;
@@ -147,7 +144,7 @@ strong {
 }
 
 .section-overlay {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(15deg, #d56616 0%, #c0d080 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -295,13 +292,14 @@ strong {
 
 .navbar-brand,
 .navbar-brand:hover {
-  font-size: var(--h3-font-size);
+  font-size: var(--h4-font-size);
   font-weight: var(--font-weight-bold);
   display: block;
 }
 
 .navbar-brand span {
   font-family: var(--title-font-family);
+  color: rgb(54, 25, 5);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -325,7 +323,7 @@ strong {
 
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link:hover {
-  color: var(--primary-color);
+  color: var(--primary-color1);
 }
 
 .navbar .dropdown-menu {
@@ -486,7 +484,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(15deg, #321f1e 0%, #f53307 100%);
   position: relative;
   overflow: hidden;
   padding-top: 150px;
